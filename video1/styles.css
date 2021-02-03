@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #8c8c8c;
   color: #ffffff;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 87.5%;
@@ -17,4 +17,75 @@ header {
 
 header h1 {
   font-family: 'Pacifico', cursive;
+  margin-bottom: 0;
+}
+
+header p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: #000;
+}
+
+nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav a {
+  color: #ffffff
+}
+
+h1 {
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 150%;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 130%;
+}
+
+footer {
+  border-top:1px solid #8c8c8c;
+}
+
+footer p {
+  text-align: center;
+  font-size: 80%;
+  letter-spacing: 3px; 
+}
+
+/* Styles related to the different states of hyperlinks */ 
+
+a:link  {
+  color: #58badd;
+}
+a:visited {
+  color: #dd5878;
+}
+a:hover {
+  color: #c1274c;
+}
+a:focus{
+  color: #c1274c;
+}
+a:active {
+  background-color: #811a33;
+  color: #ffffff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {overflow-y: scroll;}
+h1, h2, p, ul {
+  margin-bottom: 1em;
+}
+ul {
+  margin-left: 2em;
 }
