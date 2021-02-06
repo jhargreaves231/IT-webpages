@@ -1,5 +1,13 @@
+/* """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Style sheet fr the HTMl CSS Course From GREAT IT Courses
+Author: Jordan Hargreaves
+Date: Saturday, February 6, 2021
+File name: screen.css
+Description: This is one of the style sheets for the whole learning program.
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
 body {
-  background-color: #8c8c8c;
+  background: #8c8c8c url(cheap_diagonal_fabric.png) repeat scroll left top;
   color: #ffffff;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 87.5%;
@@ -7,12 +15,15 @@ body {
 
 div#wrapper {
   background-color: #ffffff;
-  color: #000000
+  color: #000000;
+  width: 760px;
+  margin: 10px auto;
 }
 
 header {
   background-color: #58BADD;
   color: #000000;
+  padding: 10px 20px;
 }
 
 header h1 {
@@ -27,6 +38,7 @@ header p {
 
 nav {
   background-color: #000;
+  padding: 10px 20px;
 }
 
 nav ul {
@@ -38,6 +50,23 @@ nav a {
   color: #ffffff
 }
 
+div#main {
+  padding: 10px 20px;
+}
+
+footer {
+  border-top:1px solid #8c8c8c;
+  padding: 10px 20px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 80%;
+  letter-spacing: 3px; 
+}
+
+/* General Styles */
+
 h1 {
   font-family: "Times New Roman", Times, Georgia, serif;
   font-size: 150%;
@@ -46,16 +75,6 @@ h1 {
 h2 {
   font-family: "Times New Roman", Times, Georgia, serif;
   font-size: 130%;
-}
-
-footer {
-  border-top:1px solid #8c8c8c;
-}
-
-footer p {
-  text-align: center;
-  font-size: 80%;
-  letter-spacing: 3px; 
 }
 
 /* Styles related to the different states of hyperlinks */ 
@@ -75,17 +94,4 @@ a:focus{
 a:active {
   background-color: #811a33;
   color: #ffffff;
-}
-
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-html {overflow-y: scroll;}
-h1, h2, p, ul {
-  margin-bottom: 1em;
-}
-ul {
-  margin-left: 2em;
 }

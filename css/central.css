@@ -1,0 +1,10 @@
+/* """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Style sheet fr the HTMl CSS Course From GREAT IT Courses
+Author: Jordan Hargreaves
+Date: Saturday, February 6, 2021
+File name: central.css
+Description: This is the central style sheets for the whole learning program. 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+@import url(foundation.css);
+@import url(screen.css);
