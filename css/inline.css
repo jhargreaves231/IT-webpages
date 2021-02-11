@@ -1,0 +1,40 @@
+/* """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Style sheet fr the HTMl CSS Course From GREAT IT Courses
+Author: Jordan Hargreaves
+Date: Saturday, February 14, 2021
+File name: inline.css
+Description: This is the style sheets for the navigation menu.
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+
+nav {
+  background-color: #000;
+  padding: 10px 20px;
+}
+
+nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+nav#main-navigation a {
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0.25em;
+  border-radius: 0.5em;
+}
+
+nav#main-navigation a:hover,
+nav#main-navigation a:focus {
+  border: 3px solid #58b9dd;
+}
+nav#main-navigation a:active {
+  background-color:#98d4ea;
+}
+
+
+nav li {
+  display: inline;
+}

@@ -11,6 +11,7 @@ body {
   color: #ffffff;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 87.5%;
+  line-height: 1.6;
 }
 
 div#wrapper {
@@ -36,20 +37,6 @@ header p {
   margin-bottom: 0;
 }
 
-nav {
-  background-color: #000;
-  padding: 10px 20px;
-}
-
-nav ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-nav a {
-  color: #ffffff
-}
-
 div#main {
   padding: 10px 20px;
 }
@@ -63,18 +50,6 @@ footer p {
   text-align: center;
   font-size: 80%;
   letter-spacing: 3px; 
-}
-
-/* General Styles */
-
-h1 {
-  font-family: "Times New Roman", Times, Georgia, serif;
-  font-size: 150%;
-}
-
-h2 {
-  font-family: "Times New Roman", Times, Georgia, serif;
-  font-size: 130%;
 }
 
 /* Styles related to the different states of hyperlinks */ 
@@ -94,4 +69,15 @@ a:focus{
 a:active {
   background-color: #811a33;
   color: #ffffff;
+}
+
+/* Custom Classes */ 
+
+.div-highlight {
+  background-color: #C9ADB2;
+  padding: 10px;
+}
+
+.current-nav-button {
+  border: 3px solid #98d4ea;
 }
