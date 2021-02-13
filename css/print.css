@@ -1,0 +1,48 @@
+/* """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Style sheet fr the HTMl CSS Course From GREAT IT Courses
+Author: Jordan Hargreaves
+Date: Saturday, February 6, 2021
+File name: print.css
+Description: This is the style sheets for printing.  
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+@media print {
+
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12pt;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 { font-size: 19.2pt; } /*160% */
+  h2 { font-size: 18pt; }   /*150% */
+  h3 { font-size: 16.8pt; } /*140% */
+  h4 { font-size: 15.6pt; } /*130% */
+  h5 { font-size: 14.4pt; } /*120% */
+  h6 { font-size: 13.2pt; } /*110% */
+
+  header {
+    border-bottom: 1px solid #000;
+  }
+
+  footer {
+    border-top: 1px solid #000;
+  }
+
+  a[href]:after {
+    content: " (URL: "attr(href)") ";
+  }
+
+  form#contact-form {
+    display: none;
+  }
+
+  .screen-only {
+    display:none;
+  }
+
+} /* End of @media - DO NOT DELETE. */
+
+

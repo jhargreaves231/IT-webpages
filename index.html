@@ -5,7 +5,8 @@
     <meta name="description" content = "You will learn web devlopment from scratch.">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="css/central.css" rel="stylesheet" media="screen">
+    <link href="favicon-16x16.png" rel="shortcut icon">
+    <link href="css/central.css" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper">
@@ -13,9 +14,9 @@
         <h1>Great It Courses</h1>
         <p>Learn Web Development From Scratch</p>
       </header>
-      <nav>
+      <nav id="main-navigation" class="screen-only">
         <ul>
-          <li><a href="index.html" title="Go to Home Page!">Home</a></li>
+          <li><a href="index.html" title="Go to Home Page!" class="current-nav-button">Home</a></li>
           <li><a href="contact.html" title="Contact us!">Contact</a></li>
           <li><a href="references.html" title="HTML CSS References">References</a></li>
         </ul>
@@ -39,6 +40,11 @@
         <p>To get more information about our courses, Please visit our <a href="http://greatitcourses.com" title="This should be a hovering description">website</a>.</p>
       </div>
       <footer>
+        <nav id="meta-navigation" class="screen-only">
+          <ul>
+            <li><a href="privacy-policy.html" title="Great IT Courses - Privacy Policy">Privacy Policy</a></li>
+          </ul>
+        </nav>
         <p>&copy;Great IT Courses 2016</p>
       </footer>
     </div> <!--end of div#wrapper-->

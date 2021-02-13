@@ -5,7 +5,8 @@
     <meta name="description" content = "Great It Courses - Contact Us!">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="css/central.css" rel="stylesheet" media="screen">
+    <link href="favicon-16x16.png" rel="shortcut icon">
+    <link href="css/central.css" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper">
@@ -13,18 +14,44 @@
         <h1>Great It Courses</h1>
         <p>Learn Web Development From Scratch</p>
       </header>
-      <nav>
+      <nav id="main-navigation" class="screen-only">
         <ul>
           <li><a href="index.html" title="Go to Home Page!">Home</a></li>
-          <li><a href="contact.html" title="Contact us!">Contact</a></li>
+          <li><a href="contact.html" title="Contact us!" class="current-nav-button">Contact</a></li>
           <li><a href="references.html" title="HTML CSS References">References</a></li>
         </ul>
       </nav>
       <div id="main">
         <h2>Contact</h2>
-        <p>Here comes the contact form. </p>
+        <p class="screen-only">Please use the following form to contact us.</p>
+        <form action="#" method="#" id="contact-form">
+          <div>
+            <div id="form-info">
+              <p>Please read our <a href="privacy-policy.html" title="Great It Courses - Privacy Policy">Privacy Policy.</a></p>
+            </div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+          </div>
+            <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" cols="20" rows="5"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Send">
+          </div>
+        </form>
+        <p>Contact us using the email address info@greatitcourses.com</p>
       </div>
       <footer>
+        <nav id="meta-navigation" class="screen-only">
+          <ul>
+            <li><a href="privacy-policy.html" title="Great IT Courses - Privacy Policy">Privacy Policy</a></li>
+          </ul>
+        </nav>
         <p>&copy;Great IT Courses 2016</p>
       </footer>
   </div> <!--end of div#wrapper-->

@@ -9,3 +9,4 @@ Description: This is the central style sheets for the whole learning program.
 @import url(foundation.css);
 @import url(screen.css);
 @import url(inline.css);
+@import url(print.css);

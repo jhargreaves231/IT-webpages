@@ -5,6 +5,7 @@ Date: Saturday, February 6, 2021
 File name: screen.css
 Description: This is one of the style sheets for the whole learning program.
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+@media screen {
 
 body {
   background: #8c8c8c url(cheap_diagonal_fabric.png) repeat scroll left top;
@@ -44,11 +45,11 @@ div#main {
 footer {
   border-top:1px solid #8c8c8c;
   padding: 10px 20px;
+  font-size:80%;
 }
 
 footer p {
   text-align: center;
-  font-size: 80%;
   letter-spacing: 3px; 
 }
 
@@ -81,3 +82,61 @@ a:active {
 .current-nav-button {
   border: 3px solid #98d4ea;
 }
+
+/* Styles related to the contact form */ 
+form#contact-form {
+  background-color: #f8f1da;
+  padding: 1em;
+  width: 350px;
+  margin-bottom: 1em;
+}
+
+form#contact-form div#form-info {
+  font-size: 70%;
+  background-color: #ead799;
+  padding: 0.5em;
+}
+
+form#contact-form div#form-info p {
+  margin-bottom: 0;
+}
+
+form#contact-form label {
+  display: block;
+}
+
+form#contact-form > div {
+  margin-bottom: 0.5em;
+}
+
+form#contact-form input:focus, form#contact-form textarea:focus {
+  background-color: #eee;
+}
+
+form#contact-form textarea {
+  max-width: 100%;
+  min-width:7em;
+}
+
+/* Styles related to the table on page privacy-policy.html */ 
+table {
+  margin:10px;
+  background-color: #f7f1da;
+  border:1px solid #000;
+  border-collapse: collapse;
+}
+
+table thead, tfoot {
+  background-color: #EAD799;
+}
+
+table tfoot {
+  font-size:80%
+}
+
+table th, td{
+  border:1px solid #000;
+  padding:0.5em;
+}
+
+} /* End of @media - DO NOT DELETE. */
